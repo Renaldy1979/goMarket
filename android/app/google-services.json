@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "398035717636",
+    "project_id": "gomarketfinance",
+    "storage_bucket": "gomarketfinance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398035717636:android:b2817d73e4faf8dcb66f51",
+        "android_client_info": {
+          "package_name": "com.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398035717636-njuqhfm94295jpf9pjo8544fo7vsh7ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile",
+            "certificate_hash": "a2fbced4b9d89094dfaf28cefab74127a9e2bc1c"
+          }
+        },
+        {
+          "client_id": "398035717636-9lqp910qog3g6etqk6bmcsnsjb5i5au0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpSF5gaeASC3jI-lHnUg0g8vogVWhzUso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398035717636-9lqp910qog3g6etqk6bmcsnsjb5i5au0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

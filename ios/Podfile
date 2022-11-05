@@ -57,3 +57,5 @@ target 'mobile' do
     end
   end
 end
+
+pod 'RNGoogleSignin', :path => '../node_modules/react-native-google-signin'

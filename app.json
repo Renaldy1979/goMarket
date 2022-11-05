@@ -1,10 +1,32 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "gomarket",
+    "slug": "gomarket",
+    "scheme": "gomarket",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "splash": {
+      "image": "src/assets/splashMercado.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B91B60"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "src/assets/adaptive-icon.png",
+        "backgroundColor": "#B91B60"
+      },
+      "googleServicesFile": "./android/app/google-services.json",
+      "config": {
+        "googleSignIn": {
+            "certificateHash": "A2:FB:CE:D4:B9:D8:90:94:DF:AF:28:CE:FA:B7:41:27:A9:E2:BC:1C"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["@react-native-google-signin/google-signin"]
   }
 }

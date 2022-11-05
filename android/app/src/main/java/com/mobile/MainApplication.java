@@ -17,6 +17,8 @@ import com.mobile.newarchitecture.MainApplicationReactNativeHost;
 import expo.modules.ApplicationLifecycleDispatcher;
 import expo.modules.ReactNativeHostWrapper;
 
+import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
